@@ -1,0 +1,85 @@
+body {
+  background-color: #092B40;
+  font-family: "SF Pro Text";
+}
+
+#search-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#search-section a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+#search-section p {
+  font-size: 24px;
+  color: white;
+}
+
+#search-section #search-icon {
+  margin-top: 25px;
+  background-color: #092B40;
+  cursor: pointer;
+  border: none;
+}
+
+#search-section .fa-search {
+  color: orange;
+}
+
+#search-section #site-search {
+  margin-top: 15px;
+  display: none;
+}
+
+#search-section #site-search #searchTerm {
+  border-radius: 0.67em;
+  border: 3px solid orange;
+  padding: 5px 30px 5px 15px;
+  font-size: 18px;
+  position: relative;
+}
+
+#search-section .fa-window-close {
+  color: white;
+}
+
+#search-section #search-close {
+  cursor: pointer;
+  display: none;
+  position: relative;
+  left: -30px;
+  color: black;
+}
+
+#search-section #submit {
+  cursor: pointer;
+}
+
+#output-section .output {
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#output-section .output a {
+  color: black;
+  text-decoration: none;
+}
+
+#output-section .output a li {
+  border-radius: 0.67em;
+  padding: 5px 10px 5px 20px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+#output-section .output a li:hover {
+  background-color: orange;
+}
+/*# sourceMappingURL=main.css.map */
